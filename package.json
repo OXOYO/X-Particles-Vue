@@ -1,10 +1,13 @@
 {
-  "name": "x-particles-vue",
+  "name": "x-particles",
   "version": "1.0.0",
   "description": "A Vue.js particles plugin base on particles.js",
   "author": "OXOYO <zmn2007.hi@163.com>",
   "files": [
-    "dist"
+    "dist",
+    "example",
+    "docs",
+    "src"
   ],
   "main": "dist/XParticles.js",
   "scripts": {

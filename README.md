@@ -16,10 +16,10 @@ npm run dev
 
 ``` bash
 ## Packages install
-npm install XParticles --save
+npm install x-particles --save
 
 ## main.js
-import XParticles from 'XParticles.js'
+import XParticles from 'x-particles'
 
 Vue.use(XParticles)
 
