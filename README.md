@@ -1,4 +1,4 @@
-# x-particles-vue
+# x-particles-vue [![Version](https://img.shields.io/npm/v/x-particles.svg)](https://www.npmjs.com/package/x-particles) [![Downloads](https://img.shields.io/npm/dt/x-particles.svg)](https://www.npmjs.com/package/x-particles)
 
 > A Vue.js particles plugin base on [particles.js](https://github.com/VincentGarreau/particles.js) .
 
