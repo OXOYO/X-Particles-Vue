@@ -47,4 +47,12 @@ Vue.use(XParticles)
 ```
 
 ## Preview
-![XParticles](docs/images/img_001.png "XParticles")
+![XParticles](https://raw.githubusercontent.com/OXOYO/X-Particles-Vue/master/docs/images/img_001.png "XParticles")
+
+## Links
+- [particles.js](https://github.com/VincentGarreau/particles.js)
+- [vue](https://github.com/vuejs/vue)
+
+
+## License
+[MIT](http://opensource.org/licenses/MIT)
