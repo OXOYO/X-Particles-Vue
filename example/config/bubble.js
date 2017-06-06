@@ -1,27 +1,27 @@
 /**
- * Created by OXOYO on 2017/5/12.
+ * Created by OXOYO on 2017/6/6.
  */
 
 const config = {
   particles: {
     number: {
-      value: 80,
+      value: 6,
       density: {
         enable: true,
         value_area: 800
       }
     },
     color: {
-      value: '#9E9E9E'
+      value: '#ffffff'
     },
     shape: {
-      type: 'circle',
+      type: 'polygon',
       stroke: {
         width: 0,
         color: '#000000'
       },
       polygon: {
-        nb_sides: 5
+        nb_sides: 6
       },
       image: {
         src: 'img/github.svg',
@@ -30,8 +30,8 @@ const config = {
       }
     },
     opacity: {
-      value: 0.5,
-      random: false,
+      value: 0.3,
+      random: true,
       anim: {
         enable: false,
         speed: 1,
@@ -40,25 +40,25 @@ const config = {
       }
     },
     size: {
-      value: 3,
-      random: true,
+      value: 160,
+      random: false,
       anim: {
-        enable: false,
-        speed: 40,
-        size_min: 0.1,
+        enable: true,
+        speed: 10,
+        size_min: 40,
         sync: false
       }
     },
     line_linked: {
-      enable: true,
-      distance: 150,
+      enable: false,
+      distance: 200,
       color: '#ffffff',
-      opacity: 0.4,
-      width: 1
+      opacity: 1,
+      width: 2
     },
     move: {
       enable: true,
-      speed: 2,
+      speed: 8,
       direction: 'none',
       random: false,
       straight: false,
@@ -75,18 +75,18 @@ const config = {
     detect_on: 'canvas',
     events: {
       onhover: {
-        enable: true,
+        enable: false,
         mode: 'grab'
       },
       onclick: {
-        enable: true,
+        enable: false,
         mode: 'push'
       },
       resize: true
     },
     modes: {
       grab: {
-        distance: 100,
+        distance: 400,
         line_linked: {
           opacity: 1
         }

@@ -1,5 +1,5 @@
 /**
- * Created by OXOYO on 2017/5/12.
+ * Created by OXOYO on 2017/6/6.
  */
 
 const config = {
@@ -12,7 +12,7 @@ const config = {
       }
     },
     color: {
-      value: '#9E9E9E'
+      value: '#ffffff'
     },
     shape: {
       type: 'circle',
@@ -58,7 +58,7 @@ const config = {
     },
     move: {
       enable: true,
-      speed: 2,
+      speed: 6,
       direction: 'none',
       random: false,
       straight: false,
@@ -76,7 +76,7 @@ const config = {
     events: {
       onhover: {
         enable: true,
-        mode: 'grab'
+        mode: 'repulse'
       },
       onclick: {
         enable: true,
@@ -86,7 +86,7 @@ const config = {
     },
     modes: {
       grab: {
-        distance: 100,
+        distance: 400,
         line_linked: {
           opacity: 1
         }

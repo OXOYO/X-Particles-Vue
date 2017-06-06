@@ -25,24 +25,38 @@ Vue.use(XParticles)
 
 ## App.vue
 <style lang="less">
-
+  .particles-background {
+    background: #383838;
+    height: 100%;
+    width: 100%;
+  }
 </style>
 
 <template>
   <div id="app" class="layout">
-    <x-particles id="myParticles" :config="config"></x-particles>
+    <x-particles id="myParticles" class="particles-background" :config="config"></x-particles>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'app',
-    data () {
-      return {
-        config: {}
+  import defConfig from './config/default.js'
+  //  import defConfig from './config/nasa.js'
+  //  import defConfig from './config/bubble.js'
+  //  import defConfig from './config/snow.js'
+
+    export default {
+      name: 'app',
+      data () {
+        return {
+          config: {}
+        }
+      },
+      created: function () {
+        let _t = this
+
+        _t.config = defConfig
       }
     }
-  }
 <script>
 ```
 

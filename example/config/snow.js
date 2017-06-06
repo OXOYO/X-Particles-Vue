@@ -1,18 +1,18 @@
 /**
- * Created by OXOYO on 2017/5/12.
+ * Created by OXOYO on 2017/6/6.
  */
 
 const config = {
   particles: {
     number: {
-      value: 80,
+      value: 400,
       density: {
         enable: true,
         value_area: 800
       }
     },
     color: {
-      value: '#9E9E9E'
+      value: '#fff'
     },
     shape: {
       type: 'circle',
@@ -31,7 +31,7 @@ const config = {
     },
     opacity: {
       value: 0.5,
-      random: false,
+      random: true,
       anim: {
         enable: false,
         speed: 1,
@@ -40,7 +40,7 @@ const config = {
       }
     },
     size: {
-      value: 3,
+      value: 10,
       random: true,
       anim: {
         enable: false,
@@ -50,16 +50,16 @@ const config = {
       }
     },
     line_linked: {
-      enable: true,
-      distance: 150,
+      enable: false,
+      distance: 500,
       color: '#ffffff',
       opacity: 0.4,
-      width: 1
+      width: 2
     },
     move: {
       enable: true,
-      speed: 2,
-      direction: 'none',
+      speed: 6,
+      direction: 'bottom',
       random: false,
       straight: false,
       out_mode: 'out',
@@ -76,26 +76,26 @@ const config = {
     events: {
       onhover: {
         enable: true,
-        mode: 'grab'
+        mode: 'bubble'
       },
       onclick: {
         enable: true,
-        mode: 'push'
+        mode: 'repulse'
       },
       resize: true
     },
     modes: {
       grab: {
-        distance: 100,
+        distance: 400,
         line_linked: {
-          opacity: 1
+          opacity: 0.5
         }
       },
       bubble: {
         distance: 400,
-        size: 40,
-        duration: 2,
-        opacity: 8,
+        size: 4,
+        duration: 0.3,
+        opacity: 1,
         speed: 3
       },
       repulse: {
