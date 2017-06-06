@@ -1,6 +1,13 @@
 {
   "name": "x-particles",
   "version": "1.0.6",
+  "keywords": [
+    "vue",
+    "vue-plugin",
+    "particles.js",
+    "particles",
+    "vue-particles"
+  ],
   "description": "A Vue.js particles plugin base on particles.js",
   "author": "OXOYO <zmn2007.hi@163.com>",
   "license": "MIT",
