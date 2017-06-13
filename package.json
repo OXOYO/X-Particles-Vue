@@ -1,6 +1,6 @@
 {
   "name": "x-particles",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "keywords": [
     "vue",
     "vue-plugin",
@@ -17,6 +17,10 @@
     "docs",
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OXOYO/X-Particles-Vue.git"
+  },
   "main": "dist/XParticles.js",
   "scripts": {
     "dev": "node build/dev-server.js",
