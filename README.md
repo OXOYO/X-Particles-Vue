@@ -1,5 +1,5 @@
 # x-particles-vue
-[![](https://img.shields.io/travis/iview/iview.svg?style=flat-square)](https://travis-ci.org/x-particles/x-particles)
+
 [![Version](https://img.shields.io/npm/v/x-particles.svg)](https://www.npmjs.com/package/x-particles)
 [![License](https://img.shields.io/npm/l/x-particles.svg)](https://www.npmjs.com/package/x-particles)
 [![NPM downloads](http://img.shields.io/npm/dm/x-particles.svg?style=flat-square)](https://npmjs.org/package/x-particles)
