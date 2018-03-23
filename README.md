@@ -11,6 +11,8 @@
 ## Example
 
 ``` bash
+# git clone https://github.com/OXOYO/X-Particles-Vue-Demo.git
+
 # install dependencies
 npm install
 
@@ -67,6 +69,8 @@ Vue.use(XParticles)
 ```
 
 ## Preview
+[Demo](https://oxoyo.github.io/X-Particles-Vue-Demo/)
+
 ![XParticles](https://raw.githubusercontent.com/OXOYO/X-Particles-Vue/master/docs/images/img_001.png "XParticles")
 
 ## Links
