@@ -2,9 +2,9 @@
 
 [![Version](https://img.shields.io/npm/v/x-particles.svg)](https://www.npmjs.com/package/x-particles)
 [![License](https://img.shields.io/npm/l/x-particles.svg)](https://www.npmjs.com/package/x-particles)
-[![NPM downloads](http://img.shields.io/npm/dm/x-particles.svg?style=flat-square)](https://npmjs.org/package/x-particles)
+[![NPM downloads](http://img.shields.io/npm/dm/x-particles.svg)](https://npmjs.org/package/x-particles)
 [![Downloads](https://img.shields.io/npm/dt/x-particles.svg)](https://www.npmjs.com/package/x-particles)
-![JS gzip size](http://img.badgesize.io/https://unpkg.com/x-particles/dist/XParticles.js?compression=gzip&label=gzip%20size:%20JS&style=flat-square)
+![JS gzip size](http://img.badgesize.io/https://unpkg.com/x-particles/dist/XParticles.js?compression=gzip&label=gzip%20size:%20JS)
 
 > A Vue.js particles plugin base on [particles.js](https://github.com/VincentGarreau/particles.js) .
 
